@@ -47,7 +47,7 @@ jobs:
     - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       with:
         fetch-depth: 1
-    - uses: github/codeql-action/init@ec3cf9c605b848da5f1e41e8452719eb1ccfb9a6
+    - uses: github/codeql-action/init@33d7b85da1a04171e211befe2c739303b9a4c066
       with:
         languages: go
     - uses: github/codeql-action/analyze@ec3cf9c605b848da5f1e41e8452719eb1ccfb9a6
